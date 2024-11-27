@@ -1,14 +1,14 @@
-<?xml version=
-        "1.0" encoding=
-        "UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
-        PUBLIC "
--//mybatis.org//DTD Config 3.0//EN"
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <settings>
-
-        //打印日志 STDOUT_LOGGING为输出SQL语句到控制台
-        <setting name="logImpl" value="LOG4J"/>
+        <!-- value="STDOUT_LOGGING" 配置打印SQL语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--        默认半自动映射-->
+        <!--        NONE:关闭自动映射-->
+        <!--        full:开启全自动映射-->
+        <!--        <setting name="autoMappingBehavior" value="NONE"/>-->
     </settings>
 </configuration>
